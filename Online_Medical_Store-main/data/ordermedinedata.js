@@ -1,0 +1,250 @@
+var tabletData = [
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/059346/dolo-650mg-strip-of-15-tablets-2-1641535221.jpg?dim=320x320&dpr=1&q=100",
+        name: "Dolo 650mg Strip Of 15 Tablets",
+        price: 25.35,
+        strikeOffPrice: 30.91,
+    },
+    {
+        img: "https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw27e49e7c/products/L0375931/large/L0375931.JPG",
+        name: "Aspirin 325 mg strip of 24 tablets",
+        price: 68,
+        strikeOffPrice: 72,
+    },
+    {
+        img: "https://c8.alamy.com/comp/EBY4RR/pack-of-tesco-paracetamol-500mg-tablets-isolated-on-white-background-EBY4RR.jpg",
+        name: "Paracetamol 500mg strip of 16 tablet",
+        price: 58,
+        strikeOffPrice: 60,
+    },
+    {
+        img: "https://i5.walmartimages.com/asr/1d246aac-d8b0-4908-b710-150df597c77c.e3dcb56cf1002c5e790821aa35dd7865.jpeg",
+        name: "Cough Syrup 150 ml",
+        price: 112,
+        strikeOffPrice:150 ,
+    },
+    {
+        img: "https://cdn0.woolworths.media/content/wowproductimages/large/087740.jpg",
+        name: "Dry Cough 200ml",
+        price: 125,
+        strikeOffPrice:145 ,
+    },
+    {
+        img: "https://www.benylin.co.uk/sites/benylin_noe/files/product-images/benylin_chestycoughcoldfinal_0.png",
+        name: "Chesty Cough and Cold Tablet strip of 16 tablet",
+        price:65 ,
+        strikeOffPrice: 75,
+    },
+    {
+        img: "https://res.cloudinary.com/du8msdgbj/image/upload/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1460448326/fqhutvgaohwhrti9ang3.png",
+        name: "Crocin Pain Relief ",
+        price:88,
+        strikeOffPrice:122 ,
+    },
+    {
+        img: "https://www.bigbasket.com/media/uploads/p/l/40157917_1-moov-pain-relief-cream.jpg",
+        name: "Moov 10gm",
+        price:20 ,
+        strikeOffPrice:25,
+    },
+    {
+        img: "https://www.vridhistores.com/public/uploads/product/1249520116.jpg",
+        name: "Moov Advance 30g+10g",
+        price:65 ,
+        strikeOffPrice: 69,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products_otc/I35532/volini-maxx-pain-relief-spray-25-gm-6.1-1610950236.jpg",
+        name: "Volini Spray 25g",
+        price: 140,
+        strikeOffPrice: 150,
+    },
+    {
+        img: "https://thumbs.dreamstime.com/z/amoxicillin-medication-as-international-nonproprietary-generic-name-concept-photo-packaging-drug-labeled-doctor-table-167836363.jpg",
+        name: "Amoxicillin Medication 875 mg strip of 28 tablet",
+        price:210,
+        strikeOffPrice: 230,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/192033/dolo-500mg-tablet-2-1641532606.jpg?dim=320x320&dpr=1&q=100",
+        name: "Dolo 500mg Tablet",
+        price: 12.54,
+        strikeOffPrice: 15.29,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I04304/dolonex-dt-20-strip-of-15-tablets-2-1641536751.jpg?dim=320x320&dpr=1&q=100",
+        name: "Dolonex Dt 20 Strip Of 15 Tablets",
+        price: 160.90,
+        strikeOffPrice: 196.22,
+    },
+    // ecosprin
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/064421/ecosprin-gold-20mg-strip-of-15-capsules-1-1641535634.jpg?dim=320x320&dpr=1&q=100",
+        name: "Ecosprin Gold 20mg Strip Of 15 Capsules",
+        name: "Ecosprin",
+        price: 120.04,
+        strikeOffPrice: 146.39,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/064416/ecosprin-av-150-20mg-strip-of-10-capsules-1-1641535234.jpg?dim=320x320&dpr=1&q=100",
+        name: "Ecosprin Av 150/20mg Strip Of 10 Capsules",
+        price: 32.26,
+        strikeOffPrice: 39.34,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/064425/ecosprin-75mg-strip-of-14-tablets-1-1641535994.jpg?dim=320x320&dpr=1&q=100",
+        name: "Ecosprin 75mg Strip Of 14 Tablets",
+        price: 3.99,
+        strikeOffPrice: 4.86,
+    },
+    // shelcal
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/159115/shelcal-500mg-strip-of-15-tablets-2-1641531946.jpg?dim=320x320&dpr=1&q=100",
+        name: "Shelcal 500mg Strip Of 15 Tablets",
+        price: 89.13,
+        strikeOffPrice: 108.70,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/159111/shelcal-hd-strip-of-15-tablets-2-1641530743.jpg?dim=320x320&dpr=1&q=100",
+        name: "Shelcal Hd Strip Of 15 Tablets",
+        price: 93.15,
+        strikeOffPrice: 113.60,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/193327/shelcal-ct-strip-of-15-tablets-2-1641531945.jpg?dim=320x320&dpr=1&q=100",
+        name: "Shelcal Ct Strip Of 15 Tablets",
+        price: 233.21,
+        strikeOffPrice: 284.0,
+    },
+    // evion
+    {
+        img: "https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcdn01.pharmeasy.in%2Fdam%2Fproducts%2F071710%2Fevion-400mg-strip-of-10-capsules-7-1641535647.jpg&w=256&q=75",
+        name: "Evion 400mg Strip Of 10 Capsules",
+        price: 28.78,
+        strikeOffPrice: 32.7,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/071715/evion-600mg-strip-of-10-capsules-2-1641536013.jpg?dim=320x320&dpr=1&q=100",
+        name: "Evion 600mg Strip Of 10 Capsules",
+        price: 40.89,
+        strikeOffPrice: 47,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/194710/evion-forte-capsule-10s-2-1641530723.jpg?dim=320x320&dpr=1&q=100",
+        name: "Evion Forte Capsule 10'S",
+        price: 176.49,
+        strikeOffPrice: 198.3,
+    },
+    //   action vicks
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I10914/vicks-action-advanced-500mg-tablet-10s-2-1641536916.jpg?dim=320x320&dpr=1&q=100",
+        name: "Vicks Action Advanced 500mg Tablet 10'S",
+        price: 39.36,
+        strikeOffPrice: 40,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I05171/vicks-action-500-extra-2-1633339219.jpg?dim=320x320&dpr=1&q=100",
+        name: "Vicks Action 500 Extra",
+        price: 33,
+        strikeOffPrice: 38,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I10914/vicks-action-advanced-500mg-tablet-10s-2-1641536916.jpg?dim=320x320&dpr=1&q=100",
+        name: "Vicks Action 500 Extra",
+        price: 43,
+        strikeOffPrice: 45,
+    },
+    // pan
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I00306/pan-40mg-strip-of-15-tablets-2-1641531068.jpg?dim=320x320&dpr=1&q=100",
+        name: "Pan 40mg Strip Of 15 Tablets",
+        price: 122.18,
+        strikeOffPrice: 149,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I03192/pan-d-strip-of-15-capsules-2-1641535847.jpg?dim=320x320&dpr=1&q=100",
+        name: "Pan D Strip Of 15 Capsules",
+        price: 155.80,
+        strikeOffPrice: 190,
+    },
+    {
+        img: "https://cdn01.pharmeasy.in/dam/products/I07747/pantocid-dsr-strip-of-15-capsules-2-1641536358.jpg?dim=320x320&dpr=1&q=100",
+        name: "Pantocid Dsr Strip Of 15 Capsules",
+        price: 172.20,
+        strikeOffPrice: 210,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice:0 ,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice:0 ,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice:0 ,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice:0 ,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price:0 ,
+        strikeOffPrice: 0,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice:0 ,
+    },
+    {
+        img: "",
+        name: "",
+        price: 0,
+        strikeOffPrice:0 ,
+    },
+
+];
+localStorage.setItem("tabletData", JSON.stringify(tabletData));
